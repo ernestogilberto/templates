@@ -1,0 +1,1 @@
+Es una elección difícil, ya que cada uno tiene sus ventajas, pero creo que me decantaría por EJS, puesto que trabaja directamente con JavaScript y creo que eso da más libertad y potencia.
