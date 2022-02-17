@@ -33,13 +33,29 @@ input{
     border-radius: 5px;
 }
 
-.btn-submit{
-    background-color: #41803A;
-    color: #EEE;
+.btn{
     margin: 0 auto;
     padding: .5rem;
     height: 2rem;
+    font-weight: bold;
+    border-radius: 5px;
 }
+
+.btn-submit{
+    background-color: #41803A;
+    color: #EEE;
+}
+
+.btn-primary{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 30%;
+    cursor: pointer;
+    background-color: #3358A2;
+    color: #EEE;
+}
+
 .products-container{
     background-color: #333;
     color: #EEE;
