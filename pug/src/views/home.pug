@@ -1,0 +1,17 @@
+doctype html
+head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0')
+    meta(http-equiv='X-UA-Compatible' content='ie=edge')
+    link(rel='stylesheet' href='/css/stiles.css')
+    title Pug
+.form-container
+    h1 Enter Product
+    form(action='/api/products' method='POST')
+        label(for='title') Title:
+        input#title(name='title')
+        label(for='price') Price:
+        input#price(name='price')
+        label(for='thumbnail') Thumbnail:
+        input#thumbnail(name='thumbnail')
+        input.btn-submit(type='submit')
